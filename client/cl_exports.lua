@@ -19,3 +19,8 @@ exports("takeImage", function(metadata)
 
 	return imageData
 end)
+
+
+RegisterCommand("testLog", function()
+	TriggerServerEvent("onTestLog")
+end, false)

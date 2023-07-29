@@ -10,5 +10,7 @@ client_scripts {
 }
 
 server_scripts {
-  "server/dist/index.js"
+  "server/dist/index.js",
+  "server/logs.lua",
+  "server/test.lua",
 }
